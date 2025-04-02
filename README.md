@@ -1,4 +1,15 @@
 # Bruin Test Bank
+Our project is a secure Test Bank website designed to help UCLA students search for, upload, and download exams with ease. We built this platform to democratize access to quality study materials while ensuring user security through an authentication system backed by a MongoDB database. Users must log in to access core features, and new users are prompted to sign up.
+
+Key Features
+- Advanced Search & Filtering: Users can filter exams using dynamically populated drop-down menus that reflect available server data.
+- Smart Upload System: Users can upload exams with custom metadata tags, making it easier to categorize and retrieve documents.
+- Dynamic PDF Content Discovery: We leverage Optical Character Recognition (OCR) to extract text from uploaded PDFs, enabling content-based search via a discovery bar.
+- Relevance Ranking: Search results are ranked using a "hidden like" system based on the number of downloads, ensuring the most valuable resources appear first.
+- Upload Leaderboard: A dynamic leaderboard tracks and ranks users based on the number of exams they upload, adding a competitive incentive.
+- Deterministic Links: Users can share search queries via URLs, allowing others to view the same results when logged in.
+
+This platform streamlines exam-sharing while maintaining security, making it a valuable tool for UCLA students.
 
 # General Prerequisites
 
