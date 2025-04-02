@@ -1,7 +1,7 @@
 # Bruin Test Bank
 Our project is a secure Test Bank website designed to help UCLA students search for, upload, and download exams with ease. We built this platform to democratize access to quality study materials while ensuring user security through an authentication system backed by a MongoDB database. Users must log in to access core features, and new users are prompted to sign up.
 
-Key Features
+## Key Features
 - Advanced Search & Filtering: Users can filter exams using dynamically populated drop-down menus that reflect available server data.
 - Smart Upload System: Users can upload exams with custom metadata tags, making it easier to categorize and retrieve documents.
 - Dynamic PDF Content Discovery: We leverage Optical Character Recognition (OCR) to extract text from uploaded PDFs, enabling content-based search via a discovery bar.
@@ -11,6 +11,11 @@ Key Features
 
 This platform streamlines exam-sharing while maintaining security, making it a valuable tool for UCLA students.
 
+## Future Work
+For future improvements, we could consider adding these changes
+- Log-Out Feature: Add a dedicated log-out button for better security on shared devices.
+- Test Comments: Allow users to leave feedback on exams to share insights.
+  
 # General Prerequisites
 
 We use Node.js v.16.15.1 and npm v.8.11.0, which you can install from the [Node.js releases](https://nodejs.org/en/about/previous-releases). There are no version specific functionality used, so realistically any Node.js newer version should not be breaking, however, this was not throughouly tested. 
